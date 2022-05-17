@@ -1,0 +1,9 @@
+{
+	"name": "qiuya-east-us-test2",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d0c45aba-ed31-441c-b7c9-98c6213250de",
+		"tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+	}
+}
