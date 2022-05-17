@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "qiuya-east-us-test2"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzureSynapseAnalytics1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://wjsank.dfs.core.windows.net"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://ADMS-UX-TEST.vault.azure.net/"
+		},
+		"Db21_connectionString": {
+			"value": ""
+		},
+		"SapHana1_connectionString": {
+			"value": ""
+		},
+		"integrationRuntime1_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/eecfb6ee-86f1-45e1-bb7e-1f5b6bdf3951/resourcegroups/adms_ux_test/providers/Microsoft.DataFactory/factories/MadridE2E/integrationruntimes/MadridE2E"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
